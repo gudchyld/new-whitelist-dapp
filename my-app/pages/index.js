@@ -102,7 +102,7 @@ export default function Home() {
       );
 
       const address = await signer.getAddress();
-      const _joinedWhitelist = await whitelistContract.whiteListedAddresses(
+      const _joinedWhitelist = await whitelistContract.whitelistedAddresses(
         address
       );
       setJoinedWhitelist(_joinedWhitelist);
@@ -196,7 +196,7 @@ export default function Home() {
             alt=""
             width={500}
             height={300}
-            
+
             src="/crypto-devs.svg" />
         </div>
       </div>

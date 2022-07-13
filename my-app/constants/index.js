@@ -51,7 +51,7 @@ export const abi = [
         "type": "address"
       }
     ],
-    "name": "whiteListedAddresses",
+    "name": "whitelistedAddresses",
     "outputs": [
       {
         "internalType": "bool",
@@ -62,5 +62,5 @@ export const abi = [
     "stateMutability": "view",
     "type": "function"
   }
-] ;
-export const WHITELIST_CONTRACT_ADDRESS = "0x476B32096f56844E959C08d7E4F347862d05DF90";
+];
+export const WHITELIST_CONTRACT_ADDRESS = "0xb9759fE44Ad6366D0E49742C62Fb5615B2ea208C";
